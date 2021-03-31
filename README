@@ -1,2 +1,9 @@
 # README
-# HPC运维开发项目代码托管
+
+author: zhouzhuo
+create time: 2021/3/31
+email: zhouzhuobigdata@qq.com
+
+This is an open source project designed to install the common software and libraries on the HPC platform
+该项目为HPC平台上自动化安装常用软件的脚本集合,包含如gcc,fftw,cmake,hdf5等常用软件和数学库的自动化安装脚本
+该项目完全开源,所涉及的软件均是开源软件,该项目将持续更新
