@@ -5,7 +5,7 @@
 
 # description:
 # this script use to install gcc require components including gmp,mpfr,mpc,isl and binutils
-# status: pre-commit
+# status: commited
 
 source ./conf/app.cfg
 source ./func/func.sh
