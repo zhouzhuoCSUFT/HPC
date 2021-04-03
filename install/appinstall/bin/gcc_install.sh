@@ -1,10 +1,13 @@
 #!/bin/bash
 
 # author:zhouzhuo
-# create time: 2020/3/20
-# update time: 2020/3/20
+# create time: 2021/3/20
+# update time: 2021/4/2
+# description
+# this script use to install Gcc compiler, which support 6.+,7.+,8.+,9.+ and 10.+
+# status: commited 
 
-#  GCC installation script
+
 source ./conf/app.cfg
 source ./func/func.sh
 
@@ -108,6 +111,7 @@ cat << EOF > ${gcc_install_dir}/activate.sh
 # source this script to bring gcc ${gcc_version} into your environment
 export PATH=${gcc_install_dir}/bin:\$PATH
 export LD_LIBRARY_PATH=${gcc_install_dir}/lib:${gcc_install_dir}/lib64:\$LD_LIBRARY_PATH
+export LIBRARY_PATH=${gcc_install_dir}/lib:${gcc_install_dir}/lib64:\$LIBRARY_PATH
 export C_INCLUDE_PATH=${gcc_install_dir}/include:\$C_INCLUDE_PATH
 export MANPATH=${gcc_install_dir}/share/man:\$MANPATH
 export INFOPATH=${gcc_install_dir}/share/info:\$INFOPATH
