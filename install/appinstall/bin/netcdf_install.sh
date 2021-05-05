@@ -1,7 +1,7 @@
 #!/bin/bash
 # author:zhouzhuo
 # create time: 2021/3/29
-# update time: 2020/4/9
+# update time: 2021/4/9
 # desription:
 # this scripts use to install netcdf including C/C++/Fortran version
 # status: commited
